@@ -14,15 +14,15 @@ Keep one Laravel application organized into modules with focused interfaces. Web
 
 This choice is recorded in [ADR 0002](./adr/0002-modular-laravel-application.md).
 
-| Module | Responsibility behind its interface |
-| --- | --- |
-| Projects and access | Resolve customer/project ownership, authorize operations, and maintain project configuration. |
-| Evidence collection | Collect source-specific metrics and page content, retain provenance and collection periods, and report freshness or failures. |
-| Project context | Maintain brief versions and durable project history; assemble relevant context for an analysis. |
-| Analysis | Coordinate evidence and context, execute the selected AI configuration, validate output, and persist recommendations and run status. |
-| Changes | Record actual website modifications, go-live dates, notes, and links to zero or more recommendations. |
-| Evaluation | Assess a recorded change against a goal using a named evaluation method and report evidence and uncertainty. |
-| AI access and usage | Resolve the team owner's key or app credentials, enforce usage allowances, and record attempts and usage. |
+| Module              | Responsibility behind its interface                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Projects and access | Resolve customer/project ownership, authorize operations, and maintain project configuration.                                        |
+| Evidence collection | Collect source-specific metrics and page content, retain provenance and collection periods, and report freshness or failures.        |
+| Project context     | Maintain brief versions and durable project history; assemble relevant context for an analysis.                                      |
+| Analysis            | Coordinate evidence and context, execute the selected AI configuration, validate output, and persist recommendations and run status. |
+| Changes             | Record actual website modifications, go-live dates, notes, and links to zero or more recommendations.                                |
+| Evaluation          | Assess a recorded change against a goal using a named evaluation method and report evidence and uncertainty.                         |
+| AI access and usage | Resolve the team owner's key or app credentials, enforce usage allowances, and record attempts and usage.                            |
 
 Use adapters where external behavior actually differs, especially GA4, GSC, and page content collection. Preserve source-specific metric meanings and dimensions while giving callers a consistent way to request evidence and inspect its provenance.
 
@@ -80,3 +80,9 @@ The distinction between reproducible evaluations and AI reviews is recorded in [
 - Choose supported models and resolve provider matching for team-owner/app credentials, unusable owner keys, scheduled execution permissions, and changes of team ownership.
 - Define source-to-goal mapping, evidence retention, and evaluation eligibility.
 - Design concrete interfaces, queue orchestration, and the first implementation sequence.
+
+## E2E testing direction
+
+Adapt Fakturax's browser-testing operating pattern to the project: Playwright/Chromium against an isolated real application, deterministic test-only fixtures, automatic browser/server diagnostics, and control-to-journey coverage tracking. Keep backend feature and focused evaluation/adapter tests. Add a worker-backed E2E profile to establish actual background execution, scheduling, recovery, and tenant-context isolation.
+
+The planned runtime, source references, fixtures, CI diagnostics, and project-specific journeys are documented in [e2e-strategy.md](./testing/e2e-strategy.md) and [e2e-coverage.md](./testing/e2e-coverage.md). They are testing design; implementation and passing coverage remain subsequent work.
