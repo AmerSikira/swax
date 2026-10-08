@@ -24,14 +24,14 @@ Status: agreed high-level journey and screen organization. Detailed interface wo
 
 The Projects screen is the entry point for creating or selecting a website project. Within a project, use the six sections below.
 
-| Section | Responsibility |
-| --- | --- |
-| Overview | Show available goal performance, data issues, top recommendations, and ongoing evaluations; provide Run analysis. |
-| Pages & Data | Manage source connections, choose pages, supply manual content, and show evidence freshness or missing data. |
-| Recommendations | Review ideas, inspect supporting evidence, and record decisions and implementation. |
-| Results | Review evaluations linked to implemented changes, with comparison data and uncertainty; request an AI review using Pass the data to AI. |
-| History | Review past analyses, decisions, changes, results, and open questions. |
-| Settings | Maintain the project brief, configure goals, and manage the default AI provider/model, schedules, and project usage limits. |
+| Section         | Responsibility                                                                                                                          |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Overview        | Show available goal performance, data issues, top recommendations, and ongoing evaluations; provide Run analysis.                       |
+| Pages & Data    | Manage source connections, choose pages, supply manual content, and show evidence freshness or missing data.                            |
+| Recommendations | Review ideas, inspect supporting evidence, and record decisions and implementation.                                                     |
+| Results         | Review evaluations linked to implemented changes, with comparison data and uncertainty; request an AI review using Pass the data to AI. |
+| History         | Review past analyses, decisions, changes, results, and open questions.                                                                  |
+| Settings        | Maintain the project brief, configure goals, and manage the default AI provider/model, schedules, and project usage limits.             |
 
 The team owner manages their AI key in account settings; app credentials are platform-managed. Project configuration and shared history remain with the project when users or credential choices change. Projects and regular team members do not supply separate AI keys.
 
