@@ -15,7 +15,3 @@ Covers spec user stories 23, 47, 48, 68, 69, 70, 71, 72, 73, 74.
 - [ ] Generate or rebuild context summaries from retained source facts using the approved retention/deletion policy; preserve the references explaining historical output.
 - [ ] Demonstrate continuity after brief/goal edits, actor/provider/key changes, session gaps, and ongoing evaluations without borrowing another project's history.
 - [ ] Verify new-run context and history rendering with browser/worker/feature tests; update context-continuity coverage.
-
-## Blocked by
-
-- Draft ticket 21: Pass selected reports or evaluations to AI

@@ -15,7 +15,3 @@ Covers spec user stories 1, 2, 3, 4, 5, 6, 7, 16.
 - [ ] Scope reads, writes, selectors, and relationship validation on the backend; reject foreign tenant and same-tenant foreign-project identifiers where inappropriate.
 - [ ] Prove persistence after reload and switching between two projects in tenant A, and rejection of tenant B access through browser/public requests and authenticated feature tests.
 - [ ] Maintain existing authentication/settings regressions and update project/navigation coverage with actual test evidence.
-
-## Blocked by
-
-- Draft ticket 06: Add the isolated Playwright authentication journey

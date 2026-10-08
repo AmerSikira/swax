@@ -14,7 +14,3 @@ Decision or verification prerequisite for the product slices.
 - [ ] Select and document the production database, queue driver, worker/scheduler operation, and verification environment using the existing Laravel stack.
 - [ ] Show allowed and rejected same-tenant, cross-tenant, same-tenant cross-project, and worker-without-session examples, including credential ownership after owner replacement.
 - [ ] List business decisions requiring owner review and obtain recorded approval before closing this gate; document infrastructure decisions with their rationale.
-
-## Blocked by
-
-None (can start immediately).

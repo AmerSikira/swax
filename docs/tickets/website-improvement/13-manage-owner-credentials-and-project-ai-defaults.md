@@ -15,8 +15,3 @@ Covers spec user stories 75, 76, 77, 78, 79, 80, 84.
 - [ ] Resolve effective credentials from the project's team owner, otherwise app credentials, following the approved compatibility/failure/ownership policy; disclose only non-secret provider/model/source information.
 - [ ] Verify owner/member permissions, two same-tenant projects, another tenant, absence fallback, mismatches, and owner replacement with feature/adapter tests and browser settings journeys.
 - [ ] Ensure key material is absent from client output, context, history, logs, and test artifacts; update owner/app credential coverage.
-
-## Blocked by
-
-- Draft ticket 04: Decide AI execution, credential, and usage policies
-- Draft ticket 07: Create and switch tenant-owned website projects

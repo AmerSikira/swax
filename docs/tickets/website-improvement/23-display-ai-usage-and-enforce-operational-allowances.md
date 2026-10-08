@@ -15,8 +15,3 @@ Covers spec user stories 81, 82, 83, 84.
 - [ ] Enforce limits under concurrent requests and workers; handle retries and uncertain external outcomes without silently double-charging or granting unbounded work.
 - [ ] Show exhausted/paused notices with recovery information while retaining earlier successful records.
 - [ ] Verify allowed/exhausted/recovered workflows in browser and worker profiles and meaningful concurrency/atomicity integration cases against the selected production database.
-
-## Blocked by
-
-- Draft ticket 15: Verify analysis with a real worker and shared business clock
-- Draft ticket 21: Pass selected reports or evaluations to AI

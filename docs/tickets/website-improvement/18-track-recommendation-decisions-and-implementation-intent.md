@@ -14,7 +14,3 @@ Covers spec user stories 44, 45, 46, 48, 49, 55.
 - [ ] Expose page/goal/supporting evidence/priority rationale and historical analysis input references.
 - [ ] Keep disposition separate from calculated outcomes; gate or link implemented status to the actual-change workflow according to the approved lifecycle.
 - [ ] Verify transitions/reloads, repeated or stale submissions, invalid transitions, and isolation through browser and feature tests; update recommendation coverage.
-
-## Blocked by
-
-- Draft ticket 14: Run a queued OpenAI analysis and inspect recommendations

@@ -15,7 +15,3 @@ Covers spec user stories 36, 37, 85.
 - [ ] Observe genuine queued/running/completed states through browser/public responses and keep workflow/context/persistence real while external adapters are controlled on the server.
 - [ ] Capture server/worker/scheduler logs and diagnostics, exercise the selected production database's relevant constraints, and record executed worker coverage.
 - [ ] Show that after-commit work cannot consume missing uncommitted records and verify no duplicate logical result on the approved replay boundary.
-
-## Blocked by
-
-- Draft ticket 14: Run a queued OpenAI analysis and inspect recommendations

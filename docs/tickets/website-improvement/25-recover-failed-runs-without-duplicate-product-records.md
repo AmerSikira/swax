@@ -15,7 +15,3 @@ Covers spec user stories 38, 39, 86.
 - [ ] Retain prior successful recommendations, reviews, and results; expose meaningful attempt/usage history without secrets.
 - [ ] Verify delayed real submissions and pending controls without replacing browser responses, plus failure/recovery and repeat worker delivery using controlled external adapters.
 - [ ] Cover owner-key/provider errors according to recorded policy and document separate live-provider/concurrency verification limits.
-
-## Blocked by
-
-- Draft ticket 23: Display AI usage and enforce operational allowances

@@ -15,7 +15,3 @@ Decision or verification prerequisite for the product slices.
 - [ ] Specify output validation, refusals/incomplete output, timeouts, logical runs/attempts, idempotency, concurrency, and reconciliation of uncertain external outcomes.
 - [ ] Define usage units, configurable allowance scope, reservations, concurrent enforcement, settlement/refunds, and visible exhausted states for analyses and AI reviews.
 - [ ] Keep packages and subscriptions deferred; record approval of unresolved behavior before closing the gate.
-
-## Blocked by
-
-None (can start immediately).

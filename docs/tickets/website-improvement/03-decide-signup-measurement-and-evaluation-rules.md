@@ -15,7 +15,3 @@ Decision or verification prerequisite for the product slices.
 - [ ] Define before/after windows, minimum evidence, thresholds, unchanged versus inconclusive, traffic/overlap caveats, grouped-change treatment, and evaluation timing/automation.
 - [ ] Provide independently calculated fixtures covering all four outcomes and time/evidence boundaries, and a method contract that can later support controlled experiments without building an A/B engine.
 - [ ] Obtain recorded approval for business/statistical policies and verified tracking before closing this gate; dependent implementation remains blocked by unresolved decisions.
-
-## Blocked by
-
-- Draft ticket 02: Decide source connections, capture, and freshness

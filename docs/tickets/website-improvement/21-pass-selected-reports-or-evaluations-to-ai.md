@@ -15,8 +15,3 @@ Covers spec user stories 64, 65, 66, 67, 68.
 - [ ] Display the persisted interpretation alongside inspectable computed measurements; the AI response must not overwrite numerical results or rule classifications.
 - [ ] Record review input/output and status in project history and preserve results on refusal/failure.
 - [ ] Verify selected-range/report/evaluation fidelity, both providers, actor/credential cases, authorization, and persisted reload behavior with browser/feature/worker journeys.
-
-## Blocked by
-
-- Draft ticket 16: Run the shared analysis workflow through Anthropic
-- Draft ticket 20: Calculate reproducible before-and-after results

@@ -15,7 +15,3 @@ Decision or verification prerequisite for the product slices.
 - [ ] Define recommendation disposition transitions, implementation links, repeated-idea handling, and priority/evidence-strength criteria.
 - [ ] Provide examples showing edits preserve historical inputs, summaries rebuild from retained facts, and grouped changes do not imply individual success.
 - [ ] Record reviewed policies before closing the gate; keep unapproved business choices explicit.
-
-## Blocked by
-
-None (can start immediately).

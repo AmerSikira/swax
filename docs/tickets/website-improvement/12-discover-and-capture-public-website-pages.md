@@ -14,7 +14,3 @@ Covers spec user stories 26, 27, 29.
 - [ ] Capture versioned content with provenance/freshness, show capture failures, and link inaccessible pages to the manual-content workflow.
 - [ ] Enforce approved fetch/redirect/network/size boundaries on the server; keep discovery and selection tenant/project scoped.
 - [ ] Verify discovery, selection, capture, and changed-content history through browser/feature journeys and focused capture-adapter contracts using controlled external origins.
-
-## Blocked by
-
-- Draft ticket 09: Select pages and supply manual page content

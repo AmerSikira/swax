@@ -15,8 +15,3 @@ Covers spec user stories 40, 41, 42, 76, 82, 85.
 - [ ] Apply current allowance rules; due work pauses clearly on exhaustion or approved permission/credential failure and follows the approved recovery policy.
 - [ ] Verify due/not-due/disabled/date-boundary cases with the shared business clock and actual scheduler/worker processes.
 - [ ] Demonstrate different projects/tenants due in the same worker without context or key leakage and update schedules/time-boundary coverage.
-
-## Blocked by
-
-- Draft ticket 17: Recover sources and analyze useful partial evidence
-- Draft ticket 23: Display AI usage and enforce operational allowances

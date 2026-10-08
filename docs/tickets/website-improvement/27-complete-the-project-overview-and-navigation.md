@@ -14,9 +14,3 @@ Covers spec user stories 12, 13, 14, 15, 16, 70.
 - [ ] Complete Overview, Pages & Data, Recommendations, Results, History, and Settings navigation with consistent project selection and correctly scoped destinations.
 - [ ] Display honest empty/partial/exhausted/failed states and next steps rather than fabricated metrics or success.
 - [ ] Verify linked controls, reloads, project switching, accessible desktop/mobile behavior, and isolation through browser/feature journeys; update the coverage map with executed evidence.
-
-## Blocked by
-
-- Draft ticket 22: Resume project work through history and rebuilt context
-- Draft ticket 24: Schedule scoped analyses with usage controls
-- Draft ticket 26: Resume project setup and show analysis readiness

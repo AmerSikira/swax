@@ -15,7 +15,3 @@ Covers spec user stories 18, 19, 20, 24, 29, 34.
 - [ ] Retain evidence versions for later reports/analyses, scope connections and fetched data correctly, and keep OAuth tokens out of browser responses/logs.
 - [ ] Expose connection/error/reconnect states and validate provider translation, quota/auth failures, counting semantics, and period boundaries with deterministic adapter fixtures.
 - [ ] Verify connect/select/collect/render/reload and unauthorized cross-project access through the real application; record separate live connectivity verification requirements.
-
-## Blocked by
-
-- Draft ticket 08: Edit versioned project goals and business briefs

@@ -15,8 +15,3 @@ Covers spec user stories 25, 29.
 - [ ] Keep GSC measures distinct from GA4 conversion denominators rather than combining incompatible counts.
 - [ ] Use deterministic server-side adapter fixtures for provider contracts and browser/feature tests for connect/collect/render/reload, validation recovery, and isolation.
 - [ ] Record separate live-provider verification requirements and update source/control coverage.
-
-## Blocked by
-
-- Draft ticket 02: Decide source connections, capture, and freshness
-- Draft ticket 07: Create and switch tenant-owned website projects

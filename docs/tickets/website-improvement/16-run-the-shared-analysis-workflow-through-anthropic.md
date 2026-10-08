@@ -14,7 +14,3 @@ Covers spec user stories 72, 79.
 - [ ] Use the existing scoped analysis/run/attempt/context pipeline and expose effective provider/model/source in the same interface.
 - [ ] Demonstrate owner-key and app-key cases, actor/provider switching, persisted original inputs, and retained prior successful results.
 - [ ] Test provider-specific translation, authentication, refusal/incomplete/malformed output, and errors at the adapter seam; prove a real browser workflow with controlled server-side responses.
-
-## Blocked by
-
-- Draft ticket 14: Run a queued OpenAI analysis and inspect recommendations

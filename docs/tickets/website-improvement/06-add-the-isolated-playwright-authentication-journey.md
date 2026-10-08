@@ -15,7 +15,3 @@ Decision or verification prerequisite for the product slices.
 - [ ] Fail on unexpected page errors, console errors, and HTTP 5xx; retain failure trace/screenshots/video with HTML, JSON, JUnit, transcripts, and runtime/commit/lockfile/application logs.
 - [ ] Provide a manual workflow with optional target ref, read-only permissions, disposable state, cleanup, always-upload diagnostics, and 14-day artifact retention; preserve automatic existing checks.
 - [ ] Implement a test-only business-clock facility that preserves real session/transport time and can be shared with workers; mark only executed authentication coverage as implemented.
-
-## Blocked by
-
-- Draft ticket 01: Decide tenancy, authorization, and runtime contracts

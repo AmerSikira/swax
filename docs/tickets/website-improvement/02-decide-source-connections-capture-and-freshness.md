@@ -15,7 +15,3 @@ Decision or verification prerequisite for the product slices.
 - [ ] Define safe public fetch boundaries, redirect/size/time limits, and prevention of fetching private network resources; make inaccessible pages recoverable through manual content.
 - [ ] Specify deterministic adapter examples and integration checks needing real credentials; expose unresolved access requirements instead of assuming live connections exist.
 - [ ] Record reviewed policies and completion evidence before closing the gate.
-
-## Blocked by
-
-None (can start immediately).
